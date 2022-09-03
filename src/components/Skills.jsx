@@ -6,9 +6,12 @@ import GitHubLogo from "../assets/github.png";
 import TailwindLogo from "../assets/tailwind.png";
 import JSLogo from "../assets/javascript.png";
 
+
 const Skills = () => {
+
   return (
     <div
+      id="my-element"
       name="experience"
       className="w-full h-screen bg-slate-800 text-gray-300"
     >

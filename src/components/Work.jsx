@@ -1,8 +1,10 @@
 import React from "react";
-import workImg from "../assets/workImg.jpeg";
-import realEstate from "../assets/realestate.jpg";
 import ratingComponent from "../assets/rating-component.jpeg";
 import cardComponent from "../assets/card-component.jpeg";
+import arcticTravel from "../assets/arctictravel.jpeg";
+import aiDesign from "../assets/aidesign.jpeg";
+import Cards from "../assets/cards.jpeg";
+import logInForm from "../assets/loginform.png";
 
 const Work = () => {
   return (
@@ -63,20 +65,20 @@ const Work = () => {
           </div>
 
           <div
-            style={{ backgroundImage: `url(${workImg})` }}
+            style={{ backgroundImage: `url(${arcticTravel})` }}
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
             <div className="opacity-0 group-hover:opacity-100">
               <span className="text-2xl font-bold text-white tracking-wider">
-                React JS Application
+                Arctic Travel Web-Site
               </span>
               <div className="pt-8 text-center">
-                <a href="/">
+                <a href="https://melodious-faun-933355.netlify.app/">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg ">
                     Demo
                   </button>
                 </a>
-                <a href="/">
+                <a href="https://github.com/lgorvin/arctic-travels">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg ">
                     Code
                   </button>
@@ -86,20 +88,20 @@ const Work = () => {
           </div>
 
           <div
-            style={{ backgroundImage: `url(${realEstate})` }}
+            style={{ backgroundImage: `url(${aiDesign})` }}
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
             <div className="opacity-0 group-hover:opacity-100">
               <span className="text-2xl font-bold text-white tracking-wider">
-                React JS Application
+                Generative Art
               </span>
               <div className="pt-8 text-center">
-                <a href="/">
+                <a href="https://cdpn.io/pen/debug/RwMqLow?authentication_hash=yokZEBXNGLWA">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg ">
                     Demo
                   </button>
                 </a>
-                <a href="/">
+                <a href="https://codepen.io/lgorvin/pen/RwMqLow">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg ">
                     Code
                   </button>
@@ -109,20 +111,20 @@ const Work = () => {
           </div>
 
           <div
-            style={{ backgroundImage: `url(${workImg})` }}
+            style={{ backgroundImage: `url(${Cards})` }}
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
             <div className="opacity-0 group-hover:opacity-100">
               <span className="text-2xl font-bold text-white tracking-wider">
-                React JS Application
+                Card Designs
               </span>
               <div className="pt-8 text-center">
-                <a href="/">
+                <a href="https://cdpn.io/pen/debug/ExERBVm?authentication_hash=ZoABaQwDNxgr">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg ">
                     Demo
                   </button>
                 </a>
-                <a href="/">
+                <a href="https://codepen.io/lgorvin/pen/ExERBVm">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg ">
                     Code
                   </button>
@@ -132,20 +134,20 @@ const Work = () => {
           </div>
 
           <div
-            style={{ backgroundImage: `url(${realEstate})` }}
+            style={{ backgroundImage: `url(${logInForm})` }}
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
             <div className="opacity-0 group-hover:opacity-100">
               <span className="text-2xl font-bold text-white tracking-wider">
-                React JS Application
+                Log In Form
               </span>
               <div className="pt-8 text-center">
-                <a href="/">
+                <a href="https://cdpn.io/pen/debug/poLaNmW?authentication_hash=XBAGRNeaJwLr">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg ">
                     Demo
                   </button>
                 </a>
-                <a href="/">
+                <a href="https://codepen.io/lgorvin/pen/poLaNmW">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg ">
                     Code
                   </button>

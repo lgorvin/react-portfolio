@@ -3,8 +3,8 @@ import ratingComponent from "../assets/rating-component.jpeg";
 import cardComponent from "../assets/card-component.jpeg";
 import arcticTravel from "../assets/arctictravel.jpeg";
 import aiDesign from "../assets/aidesign.jpeg";
-import Cards from "../assets/cards.jpeg";
 import logInForm from "../assets/loginform.png";
+import creditCardForm from "../assets/credit-card-form.png";
 
 const Work = () => {
   return (
@@ -111,7 +111,7 @@ const Work = () => {
           </div>
 
           <div
-            style={{ backgroundImage: `url(${Cards})` }}
+            style={{ backgroundImage: `url(${creditCardForm})` }}
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
             <div className="opacity-0 group-hover:opacity-100">
@@ -119,12 +119,12 @@ const Work = () => {
                 Card Designs
               </span>
               <div className="pt-8 text-center">
-                <a href="https://cdpn.io/pen/debug/ExERBVm?authentication_hash=ZoABaQwDNxgr">
+                <a href="https://cheerful-gingersnap-f769d7.netlify.app/">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg ">
                     Demo
                   </button>
                 </a>
-                <a href="https://codepen.io/lgorvin/pen/ExERBVm">
+                <a href="https://github.com/lgorvin/credit-card-form">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg ">
                     Code
                   </button>

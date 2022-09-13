@@ -1,6 +1,6 @@
 import React from "react";
 import ratingComponent from "../assets/rating-component.jpeg";
-import cardComponent from "../assets/card-component.jpeg";
+import remoteWork from "../assets/remotework.jpeg";
 import arcticTravel from "../assets/arctictravel.jpeg";
 import aiDesign from "../assets/aidesign.jpeg";
 import logInForm from "../assets/loginform.png";
@@ -42,15 +42,15 @@ const Work = () => {
           </div>
 
           <div
-            style={{ backgroundImage: `url(${cardComponent})` }}
+            style={{ backgroundImage: `url(${remoteWork})` }}
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
             <div className="opacity-0 group-hover:opacity-100">
               <span className="text-2xl font-bold text-white tracking-wider">
-                Card Component
+                Remote Work Website
               </span>
               <div className="pt-8 text-center">
-                <a href="https://keen-starburst-d1403e.netlify.app/">
+                <a href="https://comforting-alpaca-dca519.netlify.app/">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg ">
                     Demo
                   </button>
@@ -66,7 +66,7 @@ const Work = () => {
 
           <div
             style={{ backgroundImage: `url(${arcticTravel})` }}
-            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
+            className="shadow-lg shadow-[#040c16]  group container rounded-md flex justify-center items-center mx-auto content-div"
           >
             <div className="opacity-0 group-hover:opacity-100">
               <span className="text-2xl font-bold text-white tracking-wider">
